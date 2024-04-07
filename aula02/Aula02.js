@@ -6,8 +6,7 @@
 // O operador === é o operador de igualdade estrita em JavaScript. Ele verifica se dois valores são iguais em tipo e valor. Dois iguais também funcionam. A diferença é que ele pode converter um texto para um valor numérico.
 // ! símbolo de negação.
 const numero = 2;
-const eDivisivelPor = (numero % 5) === 0;
-
+const isNumeroPar = (numero % 5) === 0; //O "is" mna frente é uma convenção para indicar de que é uma variavlel bolleana. 
 if (numero === 0) {
     console.log('O numero não e valido');
 }
