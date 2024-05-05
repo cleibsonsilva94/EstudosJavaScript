@@ -4,8 +4,7 @@
 const altura = 1.76;
 const peso = 69;
 // Cálculo
-const IMC = peso / Math.pow(altura, 2); // Função em java para calcular o quadrado da altura. 
-// Manipulação baseada em condicionais
+const IMC = peso / Math.pow(altura, 2); // A função Math.pow() eleva o primeiro argumento (altura) à potência do segundo argumento (2)
 if (IMC < 18.5) {
   console.log(`Você está abaixo do peso, seu IMC é ${IMC.toFixed(1)}`);
 }
